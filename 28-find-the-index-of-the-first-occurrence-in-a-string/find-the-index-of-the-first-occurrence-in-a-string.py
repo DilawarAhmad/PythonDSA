@@ -2,7 +2,6 @@ class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         n = len(haystack)
         m = len(needle)
-        first = -1
         for start in range(n-m+1):
             match = True
             for i in range(m):
